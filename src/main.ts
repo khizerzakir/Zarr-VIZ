@@ -17,7 +17,7 @@ const DEFAULT_SELECTOR = { band: 'tavg', month: 1 }
 
 // ── DOM ──────────────────────────────────────────────────────────────────────
 buildPanel()  // injects sidebar HTML
-
+console.log('App initialized')
 const map = new maplibregl.Map({
   container: 'map',
   style: {
