@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-  base: '/ZARR-VIZ/',
+  base: '/Zarr-VIZ/',
   build: {
     outDir: 'dist'
   }
